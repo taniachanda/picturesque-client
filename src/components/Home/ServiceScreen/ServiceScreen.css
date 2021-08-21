@@ -1,0 +1,98 @@
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+	background: rgba(0, 0, 0, 0.5);
+}
+.hovereffect .overlay {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+	top: auto;
+	/* opacity: 0; */
+	bottom: 0;
+	padding: 1em;
+	height: 4.75em;
+	/* background: rgb(0, 0, 0); */
+	background: rgba(0, 0, 0, 0.5);
+	/* -webkit-transition: -webkit-transform 0.35s; */
+	/* transition: transform 0.5s; */
+	/* -webkit-transform: translate3d(0,100%,0); */
+	/* transform: translate3d(0,100%,0); */
+	visibility: hidden;
+
+}
+.hovereffect .title-overlay {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+	top: 0;
+	bottom: 0;
+	padding: 1em;
+	height: 4.75em;
+	background: rgba(0, 0, 0, 0.5);
+	visibility: hidden;
+
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+.hovereffect .s-btn {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+	float: left;
+	margin: 0px;
+	display: inline-block;
+}
+.hovereffect .o-btn {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+	float: right;
+	margin: 0px;
+	display: inline-block;
+}
+
+.hovereffect .s-btn,
+.hovereffect .o-btn{
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,200%,0);
+	transform: translate3d(0,200%,0);
+	visibility: visible;
+}
+
+
+.hovereffect:hover .overlay,
+.hovereffect:hover .s-btn,
+.hovereffect:hover .o-btn{
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.hovereffect:hover .s-btn,
+.hovereffect:hover .o-btn {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}

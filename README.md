@@ -1,6 +1,6 @@
 # picturesque
 
-A Fullstack Service website.
+A Fullstack photography website.
 
 ## Click below to view the website
 

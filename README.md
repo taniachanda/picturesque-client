@@ -8,7 +8,7 @@ A Fullstack photography website.
 
 ## Click below to view server repository
 
-https://github.com/taniachanda/wisdom-law-server-MERN
+https://github.com/taniachanda/picturesque-server
 
 ## Tech Stack
 
